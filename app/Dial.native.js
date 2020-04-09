@@ -5,7 +5,6 @@ import {
   Subheading,
   Surface,
   withTheme,
-  Checkbox,
   IconButton,
 } from 'react-native-paper';
 

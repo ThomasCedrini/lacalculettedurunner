@@ -1,11 +1,11 @@
 import React, {useState} from 'react';
 import {
   StyleSheet,
-  View,
   useWindowDimensions,
   KeyboardAvoidingView,
 } from 'react-native';
 import Dial from './Dial';
+import Button from './components/Button';
 
 const Calculator = ({
   distance,
@@ -105,6 +105,7 @@ const Calculator = ({
         onChange={setSpeed}
         onSubmit={submit}
       />
+      <Button onPress={submit}>Calculer</Button>
     </KeyboardAvoidingView>
   );
 };

@@ -6,9 +6,9 @@ import useCalculator from './useCalculator';
 import Calculator from './Calculator';
 
 const INIT_DISTANCE = '10.0';
-const INIT_PACE = '03:30';
+const INIT_PACE = '03:35';
 const INIT_DURATION = '00:35:50';
-const INIT_SPEED = '16.73';
+const INIT_SPEED = '16.74';
 
 const CalculatorScreen = () => {
   const {submit, ...data} = useCalculator({
